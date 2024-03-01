@@ -1,0 +1,27 @@
+.about {
+    border: 2px solid red;
+    padding: 50px 100px;
+}
+
+.about-div {
+    border: 2px solid black;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.about-image {
+    border: 2px solid blue;
+    flex: 1;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    border: 2px solid orange;
+    flex: 1;
+}
