@@ -18,7 +18,7 @@ function Skills() {
     }
 
     return (
-        <section className="skills">
+        <section className="skills" id="skills">
             <Slider {...settings}>
                 <div className="slide-item">
                     <img src={htmlImage} className="slide-image" alt="skill" />

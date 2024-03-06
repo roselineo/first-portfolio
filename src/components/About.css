@@ -25,3 +25,26 @@
     border: 2px solid orange;
     flex: 1;
 }
+
+@media screen and (max-width: 900px) {
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .about {
+        padding: 50px 20px;
+    }
+
+    .about-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

@@ -3,7 +3,7 @@ import MyImage from "../images/oilgas9.jpg"
 
 function About() {
     return (
-        <section className="about">
+        <section className="about" id="about">
             <h1>About Me</h1>
             <div className="about-div">
                 <div className="about-image">

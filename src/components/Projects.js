@@ -7,8 +7,9 @@ function Projects() {
             <div className="project-image-div">
                 <img src={item.photo} alt="project" className="project-image" />
             </div>
-            <h>{item.title}</h>
+            <h1>{item.title}</h1>
             <p>{item.description}</p>
+            <h4>Tech Stack</h4>
             <ul>
                 {
                     item.tech.map(tech => <li>{tech}</li>)
@@ -17,7 +18,7 @@ function Projects() {
         </div>
     ))
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <h1>My Projects</h1>
             <div className="project-container">
                 {projectItem}

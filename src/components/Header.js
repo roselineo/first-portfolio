@@ -12,16 +12,16 @@ function Header() {
             <div className="menu">
                 <ul>
                     <li>
-                        <Link to="#" className="menu-item">About</Link>
+                        <Link to="#about" className="menu-item">About</Link>
                     </li>
                     <li>
-                        <Link to="#" className="menu-item">Skills</Link>
+                        <Link to="#skills" className="menu-item">Skills</Link>
                     </li>
                     <li>
-                        <Link to="#" className="menu-item">Projects</Link>
+                        <Link to="#projects" className="menu-item">Projects</Link>
                     </li>
                     <li>
-                        <Link to="#" className="menu-item">Contact</Link>
+                        <Link to="#contact" className="menu-item">Contact</Link>
                     </li>
                     <li>
                         <Link to="#" className="menu-item">Download My CV</Link>
